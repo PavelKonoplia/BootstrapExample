@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid col-md-8">
+<nav class="navbar navbar-expand-md navbar-light bg-light border rounded mb-4">
+<a class="navbar-brand" ></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" >Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" >Scheluder</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Actions
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			<a class="dropdown-item">Save</a>
+          <div class="dropdown-divider"></div>
+			<a class="dropdown-item">Import</a>
+			<a class="dropdown-item">Export</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-md-0">
+      <button class="btn btn-light  border " type="submit">Sing In</button>
+    </form>
+  </div>
+</nav>
+	<div class="container-fluid">
+		<div class="row ">
+		<div class="col-md mb-3">
+		<div class="row ">
+				<div class="col mr-4 border rounded  px-0">
+				<div class="border-bottom p-3 "> <span class="">Lorem ipsum</span></div>
+				<div class="p-3"><span class="">Lorem ipsum dolor sit amet,
+				consectetur adipiscing elit. 
+				Suspendisse eget feugiat mauris. 
+				Donec suscipit lorem id est vestibulum ultricies.
+				Nam rutrum mattis augue, eget euismod
+				lectus rutrum non. Nullam vestibulum urna justo, 
+				ut dignissim mauris placerat vel. Duis mattis dolor 
+				ut orci laoreet, sed cursus nulla pellentesque.
+				Integer at malesuada felis. </span>
+				</div>
+				</div>
+				
+				<div class="col-4 border rounded px-0 h-25">
+				<div class="border-bottom  p-3"><span class="">Short "Lorem ipsum"</span></div>
+				<div class="p-3"><span class="">Lorem ipsum dolor sit amet,
+				consectetur adipiscing elit.</span> </div></div>
+			</div>	</div>
+			
+		<div class="col-md mb-3 ml-4">		
+		<div class="row ">
+				<div class="col mr-4 border rounded px-0  ">
+				<div class="border-bottom p-3 "><span class="">Reminder</span></div>
+				<div class="p-3">
+				<form action="/action_page.php">
+					<div class="form-group">
+					<label for="email">Email address</label>
+					<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+					</div>
+					<button type="submit" class="btn btn-light border">Submit</button>
+				</form>
+				</div></div>
+				
+				<div class="col border rounded px-0 h-25">
+				<div class="border-bottom p-3 "><span>Reminder inline</span></div>
+				<div class="p-3">
+				<form action="/action_page.php">
+				    <div class="input-group">
+						<div class="input-group-prepend">
+						<span class="input-group-text" id="basic-addon1">@</span>
+						</div>
+						<input type="text" class="form-control" placeholder="Enter email" aria-label="Enter email" aria-describedby="basic-addon1">
+						</div>
+					<button type="submit" class="btn btn-light border">Sign in</button>
+				</form>
+				</div>
+				</div>
+				</div></div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
